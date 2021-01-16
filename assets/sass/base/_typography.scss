@@ -1,0 +1,71 @@
+.nav{
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $regular;
+}
+
+.portada__texto{
+
+    & h1{
+        font-family: $raleway;
+        font-size: $xxx-large;
+        font-weight: $bold;
+    }
+    & p{
+        font-family: $open-sans;
+        font-size: $small;
+        font-weight: $regular;
+    }
+} 
+
+
+.caracteristicas h2{
+    font-family: $raleway;
+        font-size: $xx-large;
+        font-weight: $bold;
+}
+
+.caracteristicas__texto{
+    & h3{
+        font-family: $raleway;
+        font-size: $large;
+        font-weight: $bold;
+    }
+    & p{
+        font-family: $open-sans;
+        font-size: $small;
+        font-weight: $regular;
+    }
+}
+
+.precios__titulo {
+    font-family: $raleway;
+    font-size: $xx-large;
+    font-weight: $bold;
+    color:$white;
+}
+.precios__tarjeta-1 , .precios__tarjeta-2 {
+    font-family: $open-sans;
+        font-size: $small;
+        font-weight: $regular;
+}
+.precios__tarjeta-1.precios__tarjeta-2 h2{
+    font-family: $raleway;
+        font-size: $large;
+        font-weight: $bold;
+        
+}
+.precios h3{
+    font-family: $open-sans;
+        font-size: $large;
+        font-weight: $regular;
+}
+
+.footer{
+   
+        font-family: $raleway;
+        font-size: $small;
+        font-weight: $bold;
+        color:$white;
+    
+}

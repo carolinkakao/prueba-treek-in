@@ -1,0 +1,32 @@
+@media (min-width: 768px){
+
+.portada{
+    position:relative;
+    &__texto{
+        width: 22rem;
+        position:absolute;
+        top:7rem;
+        left:10rem;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+}
+
+@media (max-width: 767.98px){
+
+    .portada__texto{
+        width: 22rem;
+         padding: 4rem;
+    }
+
+    img{
+    width: 100%;
+    }
+
+
+
+
+}

@@ -1,0 +1,60 @@
+@media (min-width: 768px){
+    /*boton seccion nav */
+
+    .nav__boton{
+        background-color: $ball-blue;
+        color:$white;
+        border-style: none;
+       padding: 0.3rem;}
+
+
+    /*boton seccion precios */
+    .precios__boton{
+        position: relative;
+        right: 2rem;
+        padding: 0.7rem;
+        background-color: $ball-blue;
+        color:$white;
+        border-style: none;
+       width: 17rem;
+       box-shadow: none;
+       transition: ease-out 0.3s;
+    }
+    /*Transition */
+    .precios__boton:hover{
+      cursor:pointer;
+      color:$raising-black;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ; 
+    }
+    
+
+}
+
+
+@media (max-width: 767.98px){
+     /*boton seccion precios */
+
+     .precios__boton{
+        margin-left: 4rem;
+        background-color: $ball-blue;
+         color:$white;
+         border-style: none;
+         padding: 1rem;
+       }
+       
+
+}
+
+
+/*Transition */
+.nav__boton:hover{
+    background-color: $middle-blue;
+  
+}
+
+.nav__boton:focus{
+    background-color: $spanish-gray;
+    transition: all linear 500ms;
+}
+
+

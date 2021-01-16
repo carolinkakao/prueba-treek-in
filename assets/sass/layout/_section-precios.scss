@@ -1,0 +1,47 @@
+
+@media (min-width: 768px){
+
+.precios{
+ 
+    background-image: url(../img/bg-price.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    &__container{
+      display:flex;
+      position:relative;
+      top:15rem;
+   margin-left: 23rem;
+    }
+    &__titulo{
+      text-align: center;
+      position:relative;
+      top:12rem;
+    }
+      
+ }
+
+}
+
+@media (max-width: 767.98px){
+
+  .precios{
+    background-image: url(../img/bg-price.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:66rem; 
+    &__container{
+      background-color:$color-price;
+      height: 80%;
+      position:relative;
+      top:11rem;
+    }    
+    &__titulo{
+      text-align: center;
+      position: relative ;
+      top:5rem;
+    }
+ }
+
+
+}

@@ -1,0 +1,33 @@
+// Vendor
+@import 'vendors/bootstrap/bootstrap.scss';
+
+// Abstract
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+@import 'abstract/variables';
+
+// Base
+@import 'base/base';
+@import 'base/animation';
+@import 'base/reset';
+@import 'base/typography';
+
+
+// Layout
+@import 'layout/layout';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/section-caracteristicas';
+@import 'layout/section-precios';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/cards';
+
+
+// Pages
+@import 'pages/pages';
+@import 'pages/home';
